@@ -1,7 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 ## Innovative Blockchain Event Management Platform
-Spearheaded the development of a cutting-edge Blockchain-powered platform, revolutionizing event proposal processes within academic institutions.	Integrated NEXT.js and Blockchain to enhance operational efficiency, transparency, and student engagement.
-![image](https://github.com/GiIrendra/Unblock/assets/96494472/09b6a063-29f5-4b1d-97f6-f8de0b675d65)
+Spearheaded the development of a cutting-edge Blockchain-powered platform, revolutionizing event proposal processes within academic institutions.<br>
+Integrated NEXT.js and Blockchain to enhance operational efficiency, transparency, and student engagement.<br>
+
 
 ## Getting Started
 
