@@ -3,6 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Spearheaded the development of a cutting-edge Blockchain-powered platform, revolutionizing event proposal processes within academic institutions.<br>
 Integrated NEXT.js and Blockchain to enhance operational efficiency, transparency, and student engagement.<br>
 
+### Quick Look
 
 ## Getting Started
 
