@@ -30,8 +30,6 @@ export default function Home() {
   const [walletAddress, setWalletAddress] = useState("");
   const [adminFlag, setAdminFlag] = useState(false);
 
-  // Log contract details for debugging purposes
-  console.log(contract);
 
   return (
     <myContext.Provider
