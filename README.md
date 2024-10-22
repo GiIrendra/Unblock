@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 # Unblock
-https://unblock003.netlify.app/ </br>
-•<b>Led<b> the development of a Blockchain-powered platform to revolutionize event proposal
+- [Unblock](https://unblock003.netlify.app/) </br>
+<b>Led<b> the development of a Blockchain-powered platform to revolutionize event proposal
 processes, enhancing trust and transparency within academic institutions.</br>
 •/ Implemented NEXT.js and Blockchain technology, resulting in a 30% reduction in event
 approval time and a 40% increase in student engagement due to transparent operations.</br>
