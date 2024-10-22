@@ -1,0 +1,37 @@
+body {
+  font-family: var(--font-geist-sans);
+  background-color: rgb(65, 56, 56);
+  background-image: url("https://img.freepik.com/free-vector/vector-abstract-musical-background-vector-illustration_206725-624.jpg?size=626&ext=jpg&ga=GA1.1.1585880872.1729191618&semt=ais_hybrid") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+  width: 100%;
+  /* min-height: 100vh; */
+  height: 100vh; /* Adjusts for safe viewport height on mobile */
+  /* height: auto;  */
+  display: flex;
+  flex-direction: column; /*-- Stacks children vertically */
+
+  /* filter: contrast(120%) brightness(110%) saturate(120%); */
+
+}
+
+.content {
+  flex-grow: 1; /* Allows content to grow and fill space */
+}
+
+
+h1, h2, h3 {
+  font-family: var(--font-geist-mono);
+}
+
+.monospaced {
+  font-family: var(--font-geist-mono);
+}
+
+html, body {
+  overflow-y: auto;
+  overflow-x: hidden;
+}

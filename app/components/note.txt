@@ -1,0 +1,2 @@
+-->the address stored on the block chain is in actual lower + upper case
+    but the address we are fetching from metamask is totally in lower case so, things got teasty here

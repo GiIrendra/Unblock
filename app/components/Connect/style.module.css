@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding-top: 10vh;
+  width: 100%;
+}
+
+.Connect {
+  font-weight:bolder;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 10%;
+  max-width: auto;
+  min-height: 6vh;
+  height: auto;
+  border-radius: 10vw;
+  color: white;
+  /* background-color: rgb(0, 0, 0); */
+  /* box-shadow: rgba(228, 251, 15, 0.842) 0px 5px 15px; */
+  /* border: 2px solid aqua; */
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: rgba(21, 19, 19, 0.944) 0px 19px 38px, rgba(2, 2, 2, 0.939) 0px 5px 12px;
+  border: 2px solid rgb(61, 53, 53);
+
+  white-space: break-spaces;
+  /* Prevents wrapping */
+  overflow: hidden;
+}
+
+.buttonText {
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  .Connect {
+    width: 70%;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .Connect {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+}
+
+
+/* aDmin css */
+.ApproveEvent {
+  cursor: pointer;
+  min-width: 10%;
+  max-width: auto;
+  min-height: 6vh;
+  height: auto;
+  color: white;
+  border-radius: 1vw;
+  position: absolute;
+  top: 3vh;
+  right: 2%;
+
+  /* box-shadow: rgba(0, 238, 255, 0.842) 0px 5px 15px; */
+  /* background-color: rgb(0, 0, 0); */
+  /* border: 2px solid aqua; */
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: rgba(21, 19, 19, 0.944) 0px 19px 38px, rgba(2, 2, 2, 0.939) 0px 5px 12px;
+  border: 2px solid rgb(0, 0, 0);
+
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .ApproveEvent {
+    width: 70%;
+    font-size: 0.9rem;
+    position: relative;
+    top: none;
+    left: 0.1%;
+    right: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .ApproveEvent {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

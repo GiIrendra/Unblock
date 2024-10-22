@@ -1,0 +1,159 @@
+.eventdashboard{
+    width: 100%;
+    position: absolute;
+    color: white;
+    margin-left: -1em;
+    margin-top:-1em;
+    padding-bottom:5em;
+    padding-top:2em;
+    transition: top 0.3s ease;
+    background-color: rgb(65, 56, 56);
+    background-image: url("https://cdn.pixabay.com/photo/2022/04/29/13/51/grid-7163779_1280.jpg");
+    /* background-image: url("https://img.freepik.com/free-vector/abstract-3d-black-techno-background-overlap-layers_206725-668.jpg?ga=GA1.1.1585880872.1729191618"); */
+    /* background-image: url("https://img.freepik.com/free-vector/gradient-black-background-with-cubes_23-2149152315.jpg?ga=GA1.1.1585880872.1729191618"); */
+    
+    /*  */
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* filter: contrast(120%) brightness(120%) saturate(120%); */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 4;
+
+}
+
+.EventDescription {
+    width: 30%;
+    height: auto;
+    padding: 2vh;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    border-radius: 1vh;
+    margin-bottom:1em;
+    /* background-color: rgb(1, 0, 0); */
+    /* border: 2px solid aqua; */
+    background-color: rgba(225, 225, 225, 0.3);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.944) 0px 19px 38px, rgba(0, 0, 0, 0.939) 0px 10px 12px;
+
+}
+
+.EventDescription ul {
+    text-align: center;
+}
+
+.EventDescription li {
+    margin: 1vh;
+    list-style-type: none;
+}
+
+.progressSection {
+    color: black;
+    width: 70%;
+    height: 30vh;
+    border-radius: 1vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: black; */
+    border: 2px solid rgb(171, 147, 147);
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: rgba(111, 107, 107, 0.944) 0px 19px 38px, rgba(99, 95, 95, 0.939) 0px -5px 12px;
+}
+
+.progTeach {
+    width: 5em;
+    height: 5em;
+    background: grey;
+    border: 2vh solid rgb(245, 245, 245);
+    border-radius: 50%;
+    text-align: center;
+    padding: 2vh;
+    box-shadow: rgba(210, 210, 210, 0.944) 0px 10px 19px, rgba(201, 201, 201, 0.939) 0px -5px 12px;
+
+}
+@media screen and (max-width: 500px) {
+    .progressSection {
+      height: auto; /* Adjusted height for screens <= 320px */
+    }
+  }
+.stdCabinet {
+    width: 5em;
+    height: 5em;
+    background: grey;
+    border: 2vh solid rgb(255, 255, 255);
+    border-radius: 50%;
+    text-align: center;
+    padding: 2vh;
+    box-shadow: rgba(210, 210, 210, 0.944) 0px 10px 19px, rgba(201, 201, 201, 0.939) 0px -5px 12px;
+
+}
+
+.progAdmin {
+    width: 5em;
+    height: 5em;
+    background: grey;
+    border: 2vh solid rgb(243, 243, 243);
+    border-radius: 50%;
+    text-align: center;
+    padding: 2vh;
+    box-shadow: rgba(210, 210, 210, 0.944) 0px 10px 19px, rgba(201, 201, 201, 0.939) 0px -5px 12px;
+
+}
+
+.progIT {
+    width: 5em;
+    height: 5em;
+    background: grey;
+    border: 2vh solid rgb(255, 255, 255);
+    border-radius: 50%;
+    text-align: center;
+    padding: 2vh;
+    box-shadow: rgba(210, 210, 210, 0.944) 0px 10px 19px, rgba(201, 201, 201, 0.939) 0px -5px 12px;
+
+}
+
+.backdashtohome{
+    position: absolute;
+    top:2vh;
+    right: 4%;
+    width: 10%;
+    height: 7vh;
+    background: #000;
+    border-radius: 3vh;
+    color: white;
+    /* border: 3px solid white; */
+    box-shadow: rgba(94, 94, 94, 0.944) 0px 19px 38px, rgba(218, 218, 218, 0.939) 0px 5px 12px;
+    border: 2px solid rgb(152, 150, 150);
+    background-color: rgb(0, 0, 0);
+}
+
+.eventcheckani{
+    /* background-color: red; */
+    width:40%;
+    height:40vh;
+    margin:3em;
+}
+
+
+/* progress bar */
+.progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    /* background-color: red; */
+    transform-origin: 0%;
+    z-index: 5;
+
+  }
