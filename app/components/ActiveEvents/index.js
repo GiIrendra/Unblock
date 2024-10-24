@@ -106,20 +106,20 @@ const ActiveEvents = ({ setBackBringActiveEvents }) => {
     setBackBringActiveEvents(false);
   }
   // ----------------------------Scroolbar status for the page
-  // const { scrollYProgress } = useScroll();
-  // const background = useTransform(
-  //   scrollYProgress,
-  //   [0, 1],
-  //   ["rgba(15, 214, 240, 0.944) ", "rgba(21, 251, 4, 0.939)"]
-  // );
+  const { scrollYProgress } = useScroll();
+  const background = useTransform(
+    scrollYProgress,
+    [0, 1],
+    ["rgba(15, 214, 240, 0.944) ", "rgba(21, 251, 4, 0.939)"]
+  );
 
   return (
     <>
       <div id="eventdash" className={style.eventdashboard}>
-        {/* <motion.div
+        <motion.div
           className={style.progressBar}
           style={{ scaleX: scrollYProgress, background, borderRadius: "30px" }}
-        /> */}
+        />
         <motion.div className={style.eventcheckani} layout>
           <Lottie
             style={{ width: "100%", height: "40vh" }}
